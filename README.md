@@ -9,7 +9,7 @@ An AI on-chain radar that finds fresh meme tokens and ranks them by smart-money 
 - Event window: **May 11-18, 2026**.
 - Prize pool: **6,000 USDT** total, with **3,000 USDT** for the Builder Track.
 - Uses OKX skills: `okx-dex-trenches`, `okx-dex-token`, `okx-dex-signal`, and `okx-security`.
-- Public deliverable: this GitHub project can be deployed as a static Vite app.
+- Public deliverable: [GitHub repository](https://github.com/MoKangMedical/meme-radar) and [GitHub Pages demo](https://mokangmedical.github.io/meme-radar/).
 - One-line description: "An AI on-chain radar that finds fresh meme tokens and ranks them by smart-money signal, holder structure, and rug risk."
 - Submit with the hackathon submission form or the plugin submit command.
 
@@ -95,7 +95,7 @@ Checklist from the hackathon page:
 Plugin submit command:
 
 ```bash
-PUBLIC_REPO_URL="https://github.com/<owner>/meme-radar" npm run submit
+PUBLIC_REPO_URL="https://github.com/MoKangMedical/meme-radar" PUBLIC_DEPLOY_URL="https://mokangmedical.github.io/meme-radar/" npm run submit
 ```
 
 If your local setup exposes the shorter binary name from the installer, this direct form also works:
@@ -104,7 +104,8 @@ If your local setup exposes the shorter binary name from the installer, this dir
 xagt-plugin submit \
   --name "Meme Radar" \
   --intro "An AI on-chain radar that finds fresh meme tokens and ranks them by smart-money signal, holder structure, and rug risk." \
-  --repo "https://github.com/<owner>/meme-radar"
+  --repo "https://github.com/MoKangMedical/meme-radar" \
+  --deploy "https://mokangmedical.github.io/meme-radar/"
 ```
 
 Recommended README demo video: 1-3 minutes showing the screening queue, radar map, inspector, refresh/fallback status, and the OKX snapshot command.

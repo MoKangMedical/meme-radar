@@ -14,7 +14,9 @@ An AI on-chain radar that finds fresh meme tokens and ranks them by smart-money 
 
 ## Public link
 
-GitHub repository: `TODO: publish this repo and paste the public URL here`
+GitHub repository: https://github.com/MoKangMedical/meme-radar
+
+Deploy URL: https://mokangmedical.github.io/meme-radar/
 
 ## What was built
 
@@ -52,7 +54,7 @@ Open `http://localhost:4173`.
 Run this after the GitHub repository is public and this file has the public URL:
 
 ```bash
-PUBLIC_REPO_URL="https://github.com/<owner>/meme-radar" npm run submit
+PUBLIC_REPO_URL="https://github.com/MoKangMedical/meme-radar" PUBLIC_DEPLOY_URL="https://mokangmedical.github.io/meme-radar/" npm run submit
 ```
 
 Equivalent direct command:
@@ -61,5 +63,6 @@ Equivalent direct command:
 npx @xagt/agent-plugin@latest submit \
   --name "Meme Radar" \
   --intro "An AI on-chain radar that finds fresh meme tokens and ranks them by smart-money signal, holder structure, and rug risk." \
-  --repo "https://github.com/<owner>/meme-radar"
+  --repo "https://github.com/MoKangMedical/meme-radar" \
+  --deploy "https://mokangmedical.github.io/meme-radar/"
 ```
