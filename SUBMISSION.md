@@ -18,6 +18,8 @@ GitHub repository: https://github.com/MoKangMedical/meme-radar
 
 Deploy URL: https://mokangmedical.github.io/meme-radar/
 
+Official xagt-plugin PR: https://github.com/xerpa-ai/xagt-plugin/pull/3
+
 ## What was built
 
 Meme Radar is a read-only X-Agent style research console for meme-token launches. It scans launchpads, ranks tokens by signal and risk, plots candidates on a momentum-vs-safety radar, and explains why a token is watchlist-worthy, research-only, or blocked.

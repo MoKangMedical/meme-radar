@@ -10,6 +10,7 @@ An AI on-chain radar that finds fresh meme tokens and ranks them by smart-money 
 - Prize pool: **6,000 USDT** total, with **3,000 USDT** for the Builder Track.
 - Uses OKX skills: `okx-dex-trenches`, `okx-dex-token`, `okx-dex-signal`, and `okx-security`.
 - Public deliverable: [GitHub repository](https://github.com/MoKangMedical/meme-radar) and [GitHub Pages demo](https://mokangmedical.github.io/meme-radar/).
+- Official submission PR: [xerpa-ai/xagt-plugin#3](https://github.com/xerpa-ai/xagt-plugin/pull/3).
 - One-line description: "An AI on-chain radar that finds fresh meme tokens and ranks them by smart-money signal, holder structure, and rug risk."
 - Submit with the hackathon submission form or the plugin submit command.
 
