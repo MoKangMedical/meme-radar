@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-12T15:10:00+08:00",
-  "source": "demo",
+  "generatedAt": "2026-05-13T08:37:57.212Z",
+  "source": "okx-live",
   "okxSkills": [
     "okx-dex-trenches",
     "okx-dex-token",
@@ -9,8 +9,8 @@
   ],
   "status": {
     "ok": true,
-    "mode": "demo",
-    "message": "Demo snapshot loaded. Run the local API server with OKX Onchain OS credentials to refresh live data.",
+    "mode": "okx-live",
+    "message": "Live OKX snapshot generated through the local Onchain OS CLI.",
     "commandsAttempted": [
       "onchainos memepump chains",
       "onchainos memepump tokens --chain solana --stage NEW",
@@ -22,359 +22,462 @@
     ]
   },
   "summary": {
-    "scanned": 8,
-    "highRisk": 3,
-    "smartMoneyHits": 4,
-    "blocked": 1
+    "scanned": 10,
+    "highRisk": 1,
+    "smartMoneyHits": 0,
+    "blocked": 0
   },
   "tokens": [
     {
-      "id": "sol-1",
-      "symbol": "NOVA",
-      "name": "Nova Cat",
-      "address": "7tNva1q5ke2b3qsnx8cdA1t4vx9fdnJH3mP9nQFgpump",
+      "id": "solana-1",
+      "symbol": "WOULDAI",
+      "name": "WOULD YOU RATHER AI",
+      "address": "9drkHmt7vep9rRUpe3QdRUSqikqtEjN2wKsxJPEFsFwP",
       "chain": "Solana",
-      "launchpad": "pump.fun",
-      "stage": "MIGRATING",
-      "ageMinutes": 42,
-      "marketCap": 612000,
-      "liquidity": 74500,
-      "volume24h": 381000,
-      "priceChange1h": 38.4,
-      "bondingProgress": 91,
-      "smartMoneyScore": 83,
-      "riskScore": 34,
-      "riskLevel": "MEDIUM",
-      "securityVerdict": "warn",
+      "launchpad": "launchpad",
+      "stage": "NEW",
+      "ageMinutes": 34410,
+      "marketCap": 2540.5047594359075,
+      "liquidity": 0,
+      "volume24h": 87.32092859025,
+      "priceChange1h": 0,
+      "bondingProgress": 4.48,
+      "smartMoneyScore": 22,
+      "riskScore": 30,
+      "riskLevel": "LOW",
+      "securityVerdict": "safe",
       "dev": {
-        "launches": 5,
+        "launches": 0,
         "rugs": 0,
-        "holdingPercent": 2.8
+        "holdingPercent": 0
       },
       "holders": {
-        "top10Percent": 31.4,
-        "snipers": 9,
-        "bundlers": 1,
-        "newWalletPercent": 43.2
+        "top10Percent": 3.548,
+        "snipers": 0,
+        "bundlers": 0,
+        "newWalletPercent": 0
       },
       "flags": [
-        "fast bonding curve",
-        "KOL wallet entry",
-        "moderate top-holder concentration"
+        "liquidity data unavailable",
+        "micro market cap",
+        "thin holder base"
       ],
       "opportunities": [
-        "migration likely",
-        "strong early liquidity",
-        "clean dev history"
+        "OKX security scan low risk"
       ],
       "recommendedChecks": [
+        "Refresh price/liquidity route",
         "Run token-bundle-info",
         "Inspect top-trader addresses",
         "Re-scan security before any swap"
       ],
-      "updatedAt": "2026-05-12T15:08:14+08:00"
+      "updatedAt": "2026-05-13T08:37:57.012Z"
     },
     {
-      "id": "sol-2",
-      "symbol": "GLYPH",
-      "name": "Glyph AI",
-      "address": "GlypH6fPwMJk28xDr8QaT1msd7CY5YnQtSUvxWLpbnk",
+      "id": "solana-2",
+      "symbol": "HOLDOOR",
+      "name": "The Holdoor",
+      "address": "6CXyvsPTSVnfet2c4YicJq6YEoYKUNNY6G7xuZ5pump",
       "chain": "Solana",
-      "launchpad": "bonk",
+      "launchpad": "launchpad",
       "stage": "NEW",
-      "ageMinutes": 18,
-      "marketCap": 188000,
-      "liquidity": 26100,
-      "volume24h": 144000,
-      "priceChange1h": 22.7,
-      "bondingProgress": 58,
-      "smartMoneyScore": 71,
-      "riskScore": 41,
-      "riskLevel": "MEDIUM",
-      "securityVerdict": "warn",
-      "dev": {
-        "launches": 2,
-        "rugs": 0,
-        "holdingPercent": 4.1
-      },
-      "holders": {
-        "top10Percent": 38.9,
-        "snipers": 14,
-        "bundlers": 2,
-        "newWalletPercent": 61.7
-      },
-      "flags": [
-        "new wallet-heavy flow",
-        "sniper cluster visible"
-      ],
-      "opportunities": [
-        "smart-money accumulation",
-        "volume acceleration"
-      ],
-      "recommendedChecks": [
-        "Check holder clusters",
-        "Compare similar tokens by same creator"
-      ],
-      "updatedAt": "2026-05-12T15:07:48+08:00"
-    },
-    {
-      "id": "sol-3",
-      "symbol": "PULSE",
-      "name": "Pulse Dog",
-      "address": "Pu1se1FD3vM2zu6e7kMNrAS7aCxbRyD928Gzq7dkbonk",
-      "chain": "Solana",
-      "launchpad": "pump.fun",
-      "stage": "NEW",
-      "ageMinutes": 9,
-      "marketCap": 79000,
-      "liquidity": 7300,
-      "volume24h": 98200,
-      "priceChange1h": 61.8,
-      "bondingProgress": 37,
-      "smartMoneyScore": 64,
-      "riskScore": 79,
-      "riskLevel": "HIGH",
-      "securityVerdict": "warn",
-      "dev": {
-        "launches": 19,
-        "rugs": 4,
-        "holdingPercent": 9.4
-      },
-      "holders": {
-        "top10Percent": 61.2,
-        "snipers": 33,
-        "bundlers": 8,
-        "newWalletPercent": 77.9
-      },
-      "flags": [
-        "dev rug history",
-        "thin liquidity",
-        "bundler concentration"
-      ],
-      "opportunities": [
-        "high velocity watch only"
-      ],
-      "recommendedChecks": [
-        "Run security token-scan",
-        "Inspect developer launch history",
-        "Avoid swap until liquidity improves"
-      ],
-      "updatedAt": "2026-05-12T15:07:21+08:00"
-    },
-    {
-      "id": "base-1",
-      "symbol": "CLANKR",
-      "name": "Clank Runner",
-      "address": "0xclank9281d7bb5a31ff116f41bd8a14f9b20c64e9",
-      "chain": "Base",
-      "launchpad": "clanker",
-      "stage": "MIGRATED",
-      "ageMinutes": 161,
-      "marketCap": 1480000,
-      "liquidity": 188000,
-      "volume24h": 697000,
-      "priceChange1h": 12.6,
-      "bondingProgress": 100,
-      "smartMoneyScore": 76,
-      "riskScore": 28,
+      "ageMinutes": 34410,
+      "marketCap": 2392.6767044865933,
+      "liquidity": 0,
+      "volume24h": 471.599549521,
+      "priceChange1h": 0,
+      "bondingProgress": 1.15,
+      "smartMoneyScore": 21,
+      "riskScore": 30,
       "riskLevel": "LOW",
       "securityVerdict": "safe",
       "dev": {
-        "launches": 7,
+        "launches": 0,
         "rugs": 0,
-        "holdingPercent": 1.7
+        "holdingPercent": 0
       },
       "holders": {
-        "top10Percent": 24.5,
-        "snipers": 5,
+        "top10Percent": 0.9139,
+        "snipers": 0,
         "bundlers": 0,
-        "newWalletPercent": 35.8
+        "newWalletPercent": 0.3323
       },
       "flags": [
-        "migrated",
-        "broad holder spread"
+        "liquidity data unavailable",
+        "micro market cap",
+        "thin holder base"
       ],
       "opportunities": [
-        "best liquidity profile",
-        "clean scan",
-        "late-stage momentum"
+        "OKX security scan low risk"
       ],
       "recommendedChecks": [
-        "Track K-line pullbacks",
-        "Review top profit addresses"
+        "Refresh price/liquidity route",
+        "Run token-bundle-info",
+        "Inspect top-trader addresses",
+        "Re-scan security before any swap"
       ],
-      "updatedAt": "2026-05-12T15:06:57+08:00"
+      "updatedAt": "2026-05-13T08:37:57.126Z"
     },
     {
-      "id": "bnb-1",
-      "symbol": "FOMO",
-      "name": "Four Meme Orbit",
-      "address": "0xf0m0a8e8a35ee761a5d227cf635d1d5ea5d7b4f1",
-      "chain": "BNB Chain",
-      "launchpad": "four.meme",
-      "stage": "NEW",
-      "ageMinutes": 27,
-      "marketCap": 245000,
-      "liquidity": 14300,
-      "volume24h": 212000,
-      "priceChange1h": -14.2,
-      "bondingProgress": 44,
-      "smartMoneyScore": 49,
-      "riskScore": 86,
-      "riskLevel": "CRITICAL",
-      "securityVerdict": "block",
-      "dev": {
-        "launches": 33,
-        "rugs": 11,
-        "holdingPercent": 14.6
-      },
-      "holders": {
-        "top10Percent": 72.8,
-        "snipers": 48,
-        "bundlers": 12,
-        "newWalletPercent": 82.4
-      },
-      "flags": [
-        "security block",
-        "repeated rug creator",
-        "top holders dominate"
-      ],
-      "opportunities": [
-        "none"
-      ],
-      "recommendedChecks": [
-        "Do not trade",
-        "Track only for pattern learning"
-      ],
-      "updatedAt": "2026-05-12T15:06:31+08:00"
-    },
-    {
-      "id": "xlayer-1",
-      "symbol": "XWAVE",
-      "name": "X Wave",
-      "address": "0x1960adE5c2cb960728bbF25e91e4B628d7a50f00",
-      "chain": "X Layer",
-      "launchpad": "dyor.fun",
-      "stage": "NEW",
-      "ageMinutes": 64,
-      "marketCap": 116000,
-      "liquidity": 31700,
-      "volume24h": 85400,
-      "priceChange1h": 6.4,
-      "bondingProgress": 69,
-      "smartMoneyScore": 58,
-      "riskScore": 39,
-      "riskLevel": "MEDIUM",
-      "securityVerdict": "warn",
-      "dev": {
-        "launches": 1,
-        "rugs": 0,
-        "holdingPercent": 3.1
-      },
-      "holders": {
-        "top10Percent": 36.4,
-        "snipers": 7,
-        "bundlers": 1,
-        "newWalletPercent": 55.6
-      },
-      "flags": [
-        "new creator",
-        "OKX ecosystem chain"
-      ],
-      "opportunities": [
-        "early X Layer discovery",
-        "healthy liquidity for age"
-      ],
-      "recommendedChecks": [
-        "Run dapp-scan on launch page",
-        "Watch bonding progress"
-      ],
-      "updatedAt": "2026-05-12T15:05:58+08:00"
-    },
-    {
-      "id": "sol-4",
-      "symbol": "MOLT",
-      "name": "Molten Frog",
-      "address": "M0lt3nFr0gFn9dku71Pc2YJZkc8iYZL9m2Qzz9oJpump",
+      "id": "solana-3",
+      "symbol": "ATH",
+      "name": "ALERGIC TO HOLD",
+      "address": "69ci8gpp2YXW4JnDbH2tBADsmgMbxbGEBmCCZWHdpump",
       "chain": "Solana",
-      "launchpad": "pump.fun",
-      "stage": "MIGRATING",
-      "ageMinutes": 75,
-      "marketCap": 334000,
-      "liquidity": 49600,
-      "volume24h": 173000,
-      "priceChange1h": 8.9,
-      "bondingProgress": 84,
-      "smartMoneyScore": 42,
-      "riskScore": 52,
+      "launchpad": "launchpad",
+      "stage": "NEW",
+      "ageMinutes": 34410,
+      "marketCap": 4959.170594089928,
+      "liquidity": 0,
+      "volume24h": 149.0587734008,
+      "priceChange1h": 0,
+      "bondingProgress": 3.82,
+      "smartMoneyScore": 22,
+      "riskScore": 51,
       "riskLevel": "MEDIUM",
       "securityVerdict": "warn",
       "dev": {
-        "launches": 8,
-        "rugs": 1,
-        "holdingPercent": 5.3
+        "launches": 0,
+        "rugs": 0,
+        "holdingPercent": 0.9947
       },
       "holders": {
-        "top10Percent": 44.8,
-        "snipers": 18,
-        "bundlers": 4,
-        "newWalletPercent": 49.2
+        "top10Percent": 51.5186,
+        "snipers": 0,
+        "bundlers": 0,
+        "newWalletPercent": 0
       },
       "flags": [
-        "mixed dev history",
-        "moderate concentration"
+        "liquidity data unavailable",
+        "micro market cap",
+        "thin holder base"
       ],
       "opportunities": [
-        "migration candidate"
+        "research only"
       ],
       "recommendedChecks": [
-        "Inspect aped wallets",
-        "Wait for post-migration liquidity"
+        "Refresh price/liquidity route",
+        "Run token-bundle-info",
+        "Inspect top-trader addresses",
+        "Re-scan security before any swap"
       ],
-      "updatedAt": "2026-05-12T15:05:40+08:00"
+      "updatedAt": "2026-05-13T08:37:57.132Z"
     },
     {
-      "id": "tron-1",
-      "symbol": "SUNX",
-      "name": "Sun X",
-      "address": "TSunX8cwJXg9uQpH33kXnCz7a6B8vN6s8K",
-      "chain": "TRON",
-      "launchpad": "sunpump",
-      "stage": "MIGRATED",
-      "ageMinutes": 221,
-      "marketCap": 902000,
-      "liquidity": 121000,
-      "volume24h": 418000,
-      "priceChange1h": -3.8,
-      "bondingProgress": 100,
-      "smartMoneyScore": 68,
-      "riskScore": 31,
+      "id": "solana-4",
+      "symbol": "TESLA AI",
+      "name": "TESLA AI",
+      "address": "69UAuqXTPUgMBX2Du5HFgM5wgnCYqYGFfGC77hZopump",
+      "chain": "Solana",
+      "launchpad": "launchpad",
+      "stage": "NEW",
+      "ageMinutes": 34411,
+      "marketCap": 4047.804784517224,
+      "liquidity": 0,
+      "volume24h": 28.46421505139,
+      "priceChange1h": 0,
+      "bondingProgress": 0.58,
+      "smartMoneyScore": 20,
+      "riskScore": 50,
+      "riskLevel": "MEDIUM",
+      "securityVerdict": "warn",
+      "dev": {
+        "launches": 0,
+        "rugs": 0,
+        "holdingPercent": 0
+      },
+      "holders": {
+        "top10Percent": 50.2304,
+        "snipers": 0,
+        "bundlers": 0,
+        "newWalletPercent": 0
+      },
+      "flags": [
+        "liquidity data unavailable",
+        "micro market cap",
+        "thin holder base"
+      ],
+      "opportunities": [
+        "research only"
+      ],
+      "recommendedChecks": [
+        "Refresh price/liquidity route",
+        "Run token-bundle-info",
+        "Inspect top-trader addresses",
+        "Re-scan security before any swap"
+      ],
+      "updatedAt": "2026-05-13T08:37:57.126Z"
+    },
+    {
+      "id": "solana-5",
+      "symbol": "LITERALLY",
+      "name": "LITERALLY",
+      "address": "4r27FyxhfLuS9zRrkJcd5S9r6WwrBoWeiRTbBiaMpump",
+      "chain": "Solana",
+      "launchpad": "launchpad",
+      "stage": "NEW",
+      "ageMinutes": 34411,
+      "marketCap": 2409.1451633544543,
+      "liquidity": 0,
+      "volume24h": 4651.27428032621,
+      "priceChange1h": 0,
+      "bondingProgress": 1.53,
+      "smartMoneyScore": 22,
+      "riskScore": 30,
       "riskLevel": "LOW",
       "securityVerdict": "safe",
       "dev": {
-        "launches": 3,
+        "launches": 0,
         "rugs": 0,
-        "holdingPercent": 2.2
+        "holdingPercent": 0
       },
       "holders": {
-        "top10Percent": 29.6,
-        "snipers": 6,
-        "bundlers": 1,
-        "newWalletPercent": 31.5
+        "top10Percent": 1.2176,
+        "snipers": 0,
+        "bundlers": 0,
+        "newWalletPercent": 0
       },
       "flags": [
-        "migrated",
-        "stable holder spread"
+        "liquidity data unavailable",
+        "micro market cap",
+        "thin holder base"
       ],
       "opportunities": [
-        "defensive watchlist",
-        "low-risk relative profile"
+        "OKX security scan low risk"
       ],
       "recommendedChecks": [
-        "Track volume decay",
-        "Compare liquidity pools"
+        "Refresh price/liquidity route",
+        "Run token-bundle-info",
+        "Inspect top-trader addresses",
+        "Re-scan security before any swap"
       ],
-      "updatedAt": "2026-05-12T15:05:05+08:00"
+      "updatedAt": "2026-05-13T08:37:57.135Z"
+    },
+    {
+      "id": "solana-6",
+      "symbol": "sammer",
+      "name": "sammer",
+      "address": "2jmg217fXVfC7PNZL5eBDUzAKdW9czpcxuV8ky5xpump",
+      "chain": "Solana",
+      "launchpad": "launchpad",
+      "stage": "NEW",
+      "ageMinutes": 34411,
+      "marketCap": 1238.786114561167,
+      "liquidity": 0,
+      "volume24h": 225.49187736611,
+      "priceChange1h": 0,
+      "bondingProgress": 0,
+      "smartMoneyScore": 20,
+      "riskScore": 50,
+      "riskLevel": "MEDIUM",
+      "securityVerdict": "warn",
+      "dev": {
+        "launches": 0,
+        "rugs": 0,
+        "holdingPercent": 0.2069
+      },
+      "holders": {
+        "top10Percent": 49.8698,
+        "snipers": 0,
+        "bundlers": 0,
+        "newWalletPercent": 0.1384
+      },
+      "flags": [
+        "liquidity data unavailable",
+        "micro market cap",
+        "thin holder base"
+      ],
+      "opportunities": [
+        "research only"
+      ],
+      "recommendedChecks": [
+        "Refresh price/liquidity route",
+        "Run token-bundle-info",
+        "Inspect top-trader addresses",
+        "Re-scan security before any swap"
+      ],
+      "updatedAt": "2026-05-13T08:37:57.135Z"
+    },
+    {
+      "id": "solana-7",
+      "symbol": "BABOON",
+      "name": "BABOON",
+      "address": "6b2u68BpxLp3UE6DcF3iP2r8HqSxcho2tBdE8avapump",
+      "chain": "Solana",
+      "launchpad": "launchpad",
+      "stage": "NEW",
+      "ageMinutes": 34411,
+      "marketCap": 1275.7616173226904,
+      "liquidity": 0,
+      "volume24h": 93.73137334293,
+      "priceChange1h": 0,
+      "bondingProgress": 17.54,
+      "smartMoneyScore": 27,
+      "riskScore": 56,
+      "riskLevel": "MEDIUM",
+      "securityVerdict": "warn",
+      "dev": {
+        "launches": 0,
+        "rugs": 0,
+        "holdingPercent": 0.0671
+      },
+      "holders": {
+        "top10Percent": 56.9562,
+        "snipers": 0,
+        "bundlers": 0,
+        "newWalletPercent": 6.9987
+      },
+      "flags": [
+        "top-holder concentration",
+        "liquidity data unavailable",
+        "micro market cap",
+        "thin holder base"
+      ],
+      "opportunities": [
+        "research only"
+      ],
+      "recommendedChecks": [
+        "Refresh price/liquidity route",
+        "Run token-bundle-info",
+        "Inspect top-trader addresses",
+        "Re-scan security before any swap"
+      ],
+      "updatedAt": "2026-05-13T08:37:57.135Z"
+    },
+    {
+      "id": "solana-8",
+      "symbol": "BeastFun",
+      "name": "BeastFun",
+      "address": "6jVnvPds6VFgwh7PzQwXSZ7971oXUb5W4Q8cm27zh7KH",
+      "chain": "Solana",
+      "launchpad": "launchpad",
+      "stage": "NEW",
+      "ageMinutes": 34411,
+      "marketCap": 82995.94950651878,
+      "liquidity": 0,
+      "volume24h": 878.83064888086,
+      "priceChange1h": 0,
+      "bondingProgress": 94.07,
+      "smartMoneyScore": 58,
+      "riskScore": 88,
+      "riskLevel": "CRITICAL",
+      "securityVerdict": "warn",
+      "dev": {
+        "launches": 0,
+        "rugs": 0,
+        "holdingPercent": 0
+      },
+      "holders": {
+        "top10Percent": 98.6869,
+        "snipers": 0,
+        "bundlers": 0,
+        "newWalletPercent": 0.0006
+      },
+      "flags": [
+        "top-holder concentration",
+        "liquidity data unavailable",
+        "thin holder base"
+      ],
+      "opportunities": [
+        "migration watch"
+      ],
+      "recommendedChecks": [
+        "Refresh price/liquidity route",
+        "Run token-bundle-info",
+        "Inspect top-trader addresses",
+        "Re-scan security before any swap"
+      ],
+      "updatedAt": "2026-05-13T08:37:57.198Z"
+    },
+    {
+      "id": "solana-9",
+      "symbol": "fih",
+      "name": "fih",
+      "address": "C1JDB1Tsz2i3Zdyq5rKLZ3godGy9eHsgHSVFKjgcpump",
+      "chain": "Solana",
+      "launchpad": "launchpad",
+      "stage": "NEW",
+      "ageMinutes": 34411,
+      "marketCap": 2470.304135053768,
+      "liquidity": 0,
+      "volume24h": 2063.86223934402,
+      "priceChange1h": 0,
+      "bondingProgress": 0.03,
+      "smartMoneyScore": 20,
+      "riskScore": 30,
+      "riskLevel": "LOW",
+      "securityVerdict": "safe",
+      "dev": {
+        "launches": 0,
+        "rugs": 0,
+        "holdingPercent": 0
+      },
+      "holders": {
+        "top10Percent": 4.4445,
+        "snipers": 0,
+        "bundlers": 0,
+        "newWalletPercent": 0.0292
+      },
+      "flags": [
+        "liquidity data unavailable",
+        "micro market cap",
+        "thin holder base"
+      ],
+      "opportunities": [
+        "OKX security scan low risk"
+      ],
+      "recommendedChecks": [
+        "Refresh price/liquidity route",
+        "Run token-bundle-info",
+        "Inspect top-trader addresses",
+        "Re-scan security before any swap"
+      ],
+      "updatedAt": "2026-05-13T08:37:57.191Z"
+    },
+    {
+      "id": "solana-10",
+      "symbol": "ASTEROID",
+      "name": "Asteroid",
+      "address": "BKvMxTJsmQbxsRRVXeUhNnULeEaovB18RAMUGEJ9vKdk",
+      "chain": "Solana",
+      "launchpad": "launchpad",
+      "stage": "NEW",
+      "ageMinutes": 34412,
+      "marketCap": 2368.23657743853,
+      "liquidity": 0,
+      "volume24h": 902.03826717476,
+      "priceChange1h": 0,
+      "bondingProgress": 0,
+      "smartMoneyScore": 20,
+      "riskScore": 30,
+      "riskLevel": "LOW",
+      "securityVerdict": "safe",
+      "dev": {
+        "launches": 0,
+        "rugs": 0,
+        "holdingPercent": 0
+      },
+      "holders": {
+        "top10Percent": 0,
+        "snipers": 0,
+        "bundlers": 0,
+        "newWalletPercent": 0
+      },
+      "flags": [
+        "liquidity data unavailable",
+        "micro market cap",
+        "thin holder base"
+      ],
+      "opportunities": [
+        "OKX security scan low risk"
+      ],
+      "recommendedChecks": [
+        "Refresh price/liquidity route",
+        "Run token-bundle-info",
+        "Inspect top-trader addresses",
+        "Re-scan security before any swap"
+      ],
+      "updatedAt": "2026-05-13T08:37:57.212Z"
     }
   ]
 }
