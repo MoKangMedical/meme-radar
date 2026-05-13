@@ -1,0 +1,380 @@
+{
+  "generatedAt": "2026-05-12T15:10:00+08:00",
+  "source": "demo",
+  "okxSkills": [
+    "okx-dex-trenches",
+    "okx-dex-token",
+    "okx-dex-signal",
+    "okx-security"
+  ],
+  "status": {
+    "ok": true,
+    "mode": "demo",
+    "message": "Demo snapshot loaded. Run the local API server with OKX Onchain OS credentials to refresh live data.",
+    "commandsAttempted": [
+      "onchainos memepump chains",
+      "onchainos memepump tokens --chain solana --stage NEW",
+      "onchainos memepump token-details --address <token>",
+      "onchainos memepump token-dev-info --address <token>",
+      "onchainos memepump token-bundle-info --address <token>",
+      "onchainos token price-info --address <token>",
+      "onchainos security token-scan --tokens 501:<token>"
+    ]
+  },
+  "summary": {
+    "scanned": 8,
+    "highRisk": 3,
+    "smartMoneyHits": 4,
+    "blocked": 1
+  },
+  "tokens": [
+    {
+      "id": "sol-1",
+      "symbol": "NOVA",
+      "name": "Nova Cat",
+      "address": "7tNva1q5ke2b3qsnx8cdA1t4vx9fdnJH3mP9nQFgpump",
+      "chain": "Solana",
+      "launchpad": "pump.fun",
+      "stage": "MIGRATING",
+      "ageMinutes": 42,
+      "marketCap": 612000,
+      "liquidity": 74500,
+      "volume24h": 381000,
+      "priceChange1h": 38.4,
+      "bondingProgress": 91,
+      "smartMoneyScore": 83,
+      "riskScore": 34,
+      "riskLevel": "MEDIUM",
+      "securityVerdict": "warn",
+      "dev": {
+        "launches": 5,
+        "rugs": 0,
+        "holdingPercent": 2.8
+      },
+      "holders": {
+        "top10Percent": 31.4,
+        "snipers": 9,
+        "bundlers": 1,
+        "newWalletPercent": 43.2
+      },
+      "flags": [
+        "fast bonding curve",
+        "KOL wallet entry",
+        "moderate top-holder concentration"
+      ],
+      "opportunities": [
+        "migration likely",
+        "strong early liquidity",
+        "clean dev history"
+      ],
+      "recommendedChecks": [
+        "Run token-bundle-info",
+        "Inspect top-trader addresses",
+        "Re-scan security before any swap"
+      ],
+      "updatedAt": "2026-05-12T15:08:14+08:00"
+    },
+    {
+      "id": "sol-2",
+      "symbol": "GLYPH",
+      "name": "Glyph AI",
+      "address": "GlypH6fPwMJk28xDr8QaT1msd7CY5YnQtSUvxWLpbnk",
+      "chain": "Solana",
+      "launchpad": "bonk",
+      "stage": "NEW",
+      "ageMinutes": 18,
+      "marketCap": 188000,
+      "liquidity": 26100,
+      "volume24h": 144000,
+      "priceChange1h": 22.7,
+      "bondingProgress": 58,
+      "smartMoneyScore": 71,
+      "riskScore": 41,
+      "riskLevel": "MEDIUM",
+      "securityVerdict": "warn",
+      "dev": {
+        "launches": 2,
+        "rugs": 0,
+        "holdingPercent": 4.1
+      },
+      "holders": {
+        "top10Percent": 38.9,
+        "snipers": 14,
+        "bundlers": 2,
+        "newWalletPercent": 61.7
+      },
+      "flags": [
+        "new wallet-heavy flow",
+        "sniper cluster visible"
+      ],
+      "opportunities": [
+        "smart-money accumulation",
+        "volume acceleration"
+      ],
+      "recommendedChecks": [
+        "Check holder clusters",
+        "Compare similar tokens by same creator"
+      ],
+      "updatedAt": "2026-05-12T15:07:48+08:00"
+    },
+    {
+      "id": "sol-3",
+      "symbol": "PULSE",
+      "name": "Pulse Dog",
+      "address": "Pu1se1FD3vM2zu6e7kMNrAS7aCxbRyD928Gzq7dkbonk",
+      "chain": "Solana",
+      "launchpad": "pump.fun",
+      "stage": "NEW",
+      "ageMinutes": 9,
+      "marketCap": 79000,
+      "liquidity": 7300,
+      "volume24h": 98200,
+      "priceChange1h": 61.8,
+      "bondingProgress": 37,
+      "smartMoneyScore": 64,
+      "riskScore": 79,
+      "riskLevel": "HIGH",
+      "securityVerdict": "warn",
+      "dev": {
+        "launches": 19,
+        "rugs": 4,
+        "holdingPercent": 9.4
+      },
+      "holders": {
+        "top10Percent": 61.2,
+        "snipers": 33,
+        "bundlers": 8,
+        "newWalletPercent": 77.9
+      },
+      "flags": [
+        "dev rug history",
+        "thin liquidity",
+        "bundler concentration"
+      ],
+      "opportunities": [
+        "high velocity watch only"
+      ],
+      "recommendedChecks": [
+        "Run security token-scan",
+        "Inspect developer launch history",
+        "Avoid swap until liquidity improves"
+      ],
+      "updatedAt": "2026-05-12T15:07:21+08:00"
+    },
+    {
+      "id": "base-1",
+      "symbol": "CLANKR",
+      "name": "Clank Runner",
+      "address": "0xclank9281d7bb5a31ff116f41bd8a14f9b20c64e9",
+      "chain": "Base",
+      "launchpad": "clanker",
+      "stage": "MIGRATED",
+      "ageMinutes": 161,
+      "marketCap": 1480000,
+      "liquidity": 188000,
+      "volume24h": 697000,
+      "priceChange1h": 12.6,
+      "bondingProgress": 100,
+      "smartMoneyScore": 76,
+      "riskScore": 28,
+      "riskLevel": "LOW",
+      "securityVerdict": "safe",
+      "dev": {
+        "launches": 7,
+        "rugs": 0,
+        "holdingPercent": 1.7
+      },
+      "holders": {
+        "top10Percent": 24.5,
+        "snipers": 5,
+        "bundlers": 0,
+        "newWalletPercent": 35.8
+      },
+      "flags": [
+        "migrated",
+        "broad holder spread"
+      ],
+      "opportunities": [
+        "best liquidity profile",
+        "clean scan",
+        "late-stage momentum"
+      ],
+      "recommendedChecks": [
+        "Track K-line pullbacks",
+        "Review top profit addresses"
+      ],
+      "updatedAt": "2026-05-12T15:06:57+08:00"
+    },
+    {
+      "id": "bnb-1",
+      "symbol": "FOMO",
+      "name": "Four Meme Orbit",
+      "address": "0xf0m0a8e8a35ee761a5d227cf635d1d5ea5d7b4f1",
+      "chain": "BNB Chain",
+      "launchpad": "four.meme",
+      "stage": "NEW",
+      "ageMinutes": 27,
+      "marketCap": 245000,
+      "liquidity": 14300,
+      "volume24h": 212000,
+      "priceChange1h": -14.2,
+      "bondingProgress": 44,
+      "smartMoneyScore": 49,
+      "riskScore": 86,
+      "riskLevel": "CRITICAL",
+      "securityVerdict": "block",
+      "dev": {
+        "launches": 33,
+        "rugs": 11,
+        "holdingPercent": 14.6
+      },
+      "holders": {
+        "top10Percent": 72.8,
+        "snipers": 48,
+        "bundlers": 12,
+        "newWalletPercent": 82.4
+      },
+      "flags": [
+        "security block",
+        "repeated rug creator",
+        "top holders dominate"
+      ],
+      "opportunities": [
+        "none"
+      ],
+      "recommendedChecks": [
+        "Do not trade",
+        "Track only for pattern learning"
+      ],
+      "updatedAt": "2026-05-12T15:06:31+08:00"
+    },
+    {
+      "id": "xlayer-1",
+      "symbol": "XWAVE",
+      "name": "X Wave",
+      "address": "0x1960adE5c2cb960728bbF25e91e4B628d7a50f00",
+      "chain": "X Layer",
+      "launchpad": "dyor.fun",
+      "stage": "NEW",
+      "ageMinutes": 64,
+      "marketCap": 116000,
+      "liquidity": 31700,
+      "volume24h": 85400,
+      "priceChange1h": 6.4,
+      "bondingProgress": 69,
+      "smartMoneyScore": 58,
+      "riskScore": 39,
+      "riskLevel": "MEDIUM",
+      "securityVerdict": "warn",
+      "dev": {
+        "launches": 1,
+        "rugs": 0,
+        "holdingPercent": 3.1
+      },
+      "holders": {
+        "top10Percent": 36.4,
+        "snipers": 7,
+        "bundlers": 1,
+        "newWalletPercent": 55.6
+      },
+      "flags": [
+        "new creator",
+        "OKX ecosystem chain"
+      ],
+      "opportunities": [
+        "early X Layer discovery",
+        "healthy liquidity for age"
+      ],
+      "recommendedChecks": [
+        "Run dapp-scan on launch page",
+        "Watch bonding progress"
+      ],
+      "updatedAt": "2026-05-12T15:05:58+08:00"
+    },
+    {
+      "id": "sol-4",
+      "symbol": "MOLT",
+      "name": "Molten Frog",
+      "address": "M0lt3nFr0gFn9dku71Pc2YJZkc8iYZL9m2Qzz9oJpump",
+      "chain": "Solana",
+      "launchpad": "pump.fun",
+      "stage": "MIGRATING",
+      "ageMinutes": 75,
+      "marketCap": 334000,
+      "liquidity": 49600,
+      "volume24h": 173000,
+      "priceChange1h": 8.9,
+      "bondingProgress": 84,
+      "smartMoneyScore": 42,
+      "riskScore": 52,
+      "riskLevel": "MEDIUM",
+      "securityVerdict": "warn",
+      "dev": {
+        "launches": 8,
+        "rugs": 1,
+        "holdingPercent": 5.3
+      },
+      "holders": {
+        "top10Percent": 44.8,
+        "snipers": 18,
+        "bundlers": 4,
+        "newWalletPercent": 49.2
+      },
+      "flags": [
+        "mixed dev history",
+        "moderate concentration"
+      ],
+      "opportunities": [
+        "migration candidate"
+      ],
+      "recommendedChecks": [
+        "Inspect aped wallets",
+        "Wait for post-migration liquidity"
+      ],
+      "updatedAt": "2026-05-12T15:05:40+08:00"
+    },
+    {
+      "id": "tron-1",
+      "symbol": "SUNX",
+      "name": "Sun X",
+      "address": "TSunX8cwJXg9uQpH33kXnCz7a6B8vN6s8K",
+      "chain": "TRON",
+      "launchpad": "sunpump",
+      "stage": "MIGRATED",
+      "ageMinutes": 221,
+      "marketCap": 902000,
+      "liquidity": 121000,
+      "volume24h": 418000,
+      "priceChange1h": -3.8,
+      "bondingProgress": 100,
+      "smartMoneyScore": 68,
+      "riskScore": 31,
+      "riskLevel": "LOW",
+      "securityVerdict": "safe",
+      "dev": {
+        "launches": 3,
+        "rugs": 0,
+        "holdingPercent": 2.2
+      },
+      "holders": {
+        "top10Percent": 29.6,
+        "snipers": 6,
+        "bundlers": 1,
+        "newWalletPercent": 31.5
+      },
+      "flags": [
+        "migrated",
+        "stable holder spread"
+      ],
+      "opportunities": [
+        "defensive watchlist",
+        "low-risk relative profile"
+      ],
+      "recommendedChecks": [
+        "Track volume decay",
+        "Compare liquidity pools"
+      ],
+      "updatedAt": "2026-05-12T15:05:05+08:00"
+    }
+  ]
+}
