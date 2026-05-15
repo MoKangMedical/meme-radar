@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-13T08:37:57.212Z",
+  "generatedAt": "2026-05-15T12:21:08.342Z",
   "source": "okx-live",
   "okxSkills": [
     "okx-dex-trenches",
@@ -23,9 +23,9 @@
   },
   "summary": {
     "scanned": 10,
-    "highRisk": 1,
+    "highRisk": 2,
     "smartMoneyHits": 0,
-    "blocked": 0
+    "blocked": 2
   },
   "tokens": [
     {
@@ -36,7 +36,7 @@
       "chain": "Solana",
       "launchpad": "launchpad",
       "stage": "NEW",
-      "ageMinutes": 34410,
+      "ageMinutes": 37513,
       "marketCap": 2540.5047594359075,
       "liquidity": 0,
       "volume24h": 87.32092859025,
@@ -71,7 +71,7 @@
         "Inspect top-trader addresses",
         "Re-scan security before any swap"
       ],
-      "updatedAt": "2026-05-13T08:37:57.012Z"
+      "updatedAt": "2026-05-15T12:20:39.196Z"
     },
     {
       "id": "solana-2",
@@ -81,7 +81,7 @@
       "chain": "Solana",
       "launchpad": "launchpad",
       "stage": "NEW",
-      "ageMinutes": 34410,
+      "ageMinutes": 37513,
       "marketCap": 2392.6767044865933,
       "liquidity": 0,
       "volume24h": 471.599549521,
@@ -116,7 +116,7 @@
         "Inspect top-trader addresses",
         "Re-scan security before any swap"
       ],
-      "updatedAt": "2026-05-13T08:37:57.126Z"
+      "updatedAt": "2026-05-15T12:20:39.194Z"
     },
     {
       "id": "solana-3",
@@ -126,7 +126,7 @@
       "chain": "Solana",
       "launchpad": "launchpad",
       "stage": "NEW",
-      "ageMinutes": 34410,
+      "ageMinutes": 37513,
       "marketCap": 4959.170594089928,
       "liquidity": 0,
       "volume24h": 149.0587734008,
@@ -161,7 +161,7 @@
         "Inspect top-trader addresses",
         "Re-scan security before any swap"
       ],
-      "updatedAt": "2026-05-13T08:37:57.132Z"
+      "updatedAt": "2026-05-15T12:20:39.196Z"
     },
     {
       "id": "solana-4",
@@ -171,7 +171,7 @@
       "chain": "Solana",
       "launchpad": "launchpad",
       "stage": "NEW",
-      "ageMinutes": 34411,
+      "ageMinutes": 37513,
       "marketCap": 4047.804784517224,
       "liquidity": 0,
       "volume24h": 28.46421505139,
@@ -206,7 +206,7 @@
         "Inspect top-trader addresses",
         "Re-scan security before any swap"
       ],
-      "updatedAt": "2026-05-13T08:37:57.126Z"
+      "updatedAt": "2026-05-15T12:20:39.696Z"
     },
     {
       "id": "solana-5",
@@ -216,7 +216,7 @@
       "chain": "Solana",
       "launchpad": "launchpad",
       "stage": "NEW",
-      "ageMinutes": 34411,
+      "ageMinutes": 37514,
       "marketCap": 2409.1451633544543,
       "liquidity": 0,
       "volume24h": 4651.27428032621,
@@ -251,7 +251,7 @@
         "Inspect top-trader addresses",
         "Re-scan security before any swap"
       ],
-      "updatedAt": "2026-05-13T08:37:57.135Z"
+      "updatedAt": "2026-05-15T12:20:40.211Z"
     },
     {
       "id": "solana-6",
@@ -261,7 +261,7 @@
       "chain": "Solana",
       "launchpad": "launchpad",
       "stage": "NEW",
-      "ageMinutes": 34411,
+      "ageMinutes": 37514,
       "marketCap": 1238.786114561167,
       "liquidity": 0,
       "volume24h": 225.49187736611,
@@ -296,7 +296,7 @@
         "Inspect top-trader addresses",
         "Re-scan security before any swap"
       ],
-      "updatedAt": "2026-05-13T08:37:57.135Z"
+      "updatedAt": "2026-05-15T12:21:08.291Z"
     },
     {
       "id": "solana-7",
@@ -306,24 +306,24 @@
       "chain": "Solana",
       "launchpad": "launchpad",
       "stage": "NEW",
-      "ageMinutes": 34411,
+      "ageMinutes": 37514,
       "marketCap": 1275.7616173226904,
       "liquidity": 0,
       "volume24h": 93.73137334293,
       "priceChange1h": 0,
       "bondingProgress": 17.54,
       "smartMoneyScore": 27,
-      "riskScore": 56,
+      "riskScore": 58,
       "riskLevel": "MEDIUM",
       "securityVerdict": "warn",
       "dev": {
-        "launches": 0,
+        "launches": 8,
         "rugs": 0,
-        "holdingPercent": 0.0671
+        "holdingPercent": 0.0168
       },
       "holders": {
         "top10Percent": 56.9562,
-        "snipers": 0,
+        "snipers": 3,
         "bundlers": 0,
         "newWalletPercent": 6.9987
       },
@@ -342,7 +342,7 @@
         "Inspect top-trader addresses",
         "Re-scan security before any swap"
       ],
-      "updatedAt": "2026-05-13T08:37:57.135Z"
+      "updatedAt": "2026-05-15T12:20:40.688Z"
     },
     {
       "id": "solana-8",
@@ -352,42 +352,41 @@
       "chain": "Solana",
       "launchpad": "launchpad",
       "stage": "NEW",
-      "ageMinutes": 34411,
+      "ageMinutes": 37514,
       "marketCap": 82995.94950651878,
       "liquidity": 0,
       "volume24h": 878.83064888086,
       "priceChange1h": 0,
       "bondingProgress": 94.07,
       "smartMoneyScore": 58,
-      "riskScore": 88,
+      "riskScore": 82,
       "riskLevel": "CRITICAL",
-      "securityVerdict": "warn",
+      "securityVerdict": "block",
       "dev": {
-        "launches": 0,
+        "launches": 17,
         "rugs": 0,
-        "holdingPercent": 0
+        "holdingPercent": 85.4012
       },
       "holders": {
         "top10Percent": 98.6869,
-        "snipers": 0,
+        "snipers": 1,
         "bundlers": 0,
         "newWalletPercent": 0.0006
       },
       "flags": [
+        "security block",
         "top-holder concentration",
         "liquidity data unavailable",
         "thin holder base"
       ],
       "opportunities": [
-        "migration watch"
+        "none"
       ],
       "recommendedChecks": [
-        "Refresh price/liquidity route",
-        "Run token-bundle-info",
-        "Inspect top-trader addresses",
-        "Re-scan security before any swap"
+        "Do not trade",
+        "Track only for pattern learning"
       ],
-      "updatedAt": "2026-05-13T08:37:57.198Z"
+      "updatedAt": "2026-05-15T12:20:39.697Z"
     },
     {
       "id": "solana-9",
@@ -397,7 +396,7 @@
       "chain": "Solana",
       "launchpad": "launchpad",
       "stage": "NEW",
-      "ageMinutes": 34411,
+      "ageMinutes": 37514,
       "marketCap": 2470.304135053768,
       "liquidity": 0,
       "volume24h": 2063.86223934402,
@@ -432,7 +431,7 @@
         "Inspect top-trader addresses",
         "Re-scan security before any swap"
       ],
-      "updatedAt": "2026-05-13T08:37:57.191Z"
+      "updatedAt": "2026-05-15T12:21:08.342Z"
     },
     {
       "id": "solana-10",
@@ -442,42 +441,42 @@
       "chain": "Solana",
       "launchpad": "launchpad",
       "stage": "NEW",
-      "ageMinutes": 34412,
+      "ageMinutes": 37515,
       "marketCap": 2368.23657743853,
       "liquidity": 0,
       "volume24h": 902.03826717476,
       "priceChange1h": 0,
       "bondingProgress": 0,
-      "smartMoneyScore": 20,
-      "riskScore": 30,
-      "riskLevel": "LOW",
-      "securityVerdict": "safe",
+      "smartMoneyScore": 0,
+      "riskScore": 100,
+      "riskLevel": "CRITICAL",
+      "securityVerdict": "block",
       "dev": {
-        "launches": 0,
-        "rugs": 0,
+        "launches": 1179,
+        "rugs": 13,
         "holdingPercent": 0
       },
       "holders": {
         "top10Percent": 0,
-        "snipers": 0,
+        "snipers": 5,
         "bundlers": 0,
         "newWalletPercent": 0
       },
       "flags": [
+        "security block",
+        "developer rug history",
         "liquidity data unavailable",
         "micro market cap",
         "thin holder base"
       ],
       "opportunities": [
-        "OKX security scan low risk"
+        "none"
       ],
       "recommendedChecks": [
-        "Refresh price/liquidity route",
-        "Run token-bundle-info",
-        "Inspect top-trader addresses",
-        "Re-scan security before any swap"
+        "Do not trade",
+        "Track only for pattern learning"
       ],
-      "updatedAt": "2026-05-13T08:37:57.212Z"
+      "updatedAt": "2026-05-15T12:21:08.252Z"
     }
   ]
 }
